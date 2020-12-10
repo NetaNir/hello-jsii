@@ -1,0 +1,85 @@
+{
+  "author": {
+    "email": "neta1nir@gmail.com",
+    "name": "NetaNir",
+    "roles": [
+      "author"
+    ]
+  },
+  "description": "jsii-module",
+  "docs": {
+    "stability": "stable"
+  },
+  "homepage": "https://github.com/neta1nir/jsii-module.git",
+  "jsiiVersion": "0.0.0 (build 057b66a@dev)",
+  "keywords": [],
+  "license": "Apache-2.0",
+  "metadata": {
+    "jsii": {
+      "pacmak": {
+        "hasDefaultInterfaces": true
+      }
+    }
+  },
+  "name": "jsii-module",
+  "readme": {
+    "markdown": "# my project"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neta1nir/jsii-module.git"
+  },
+  "schema": "jsii/0.10.0",
+  "targets": {
+    "java": {
+      "maven": {
+        "artifactId": "hello-jsii",
+        "groupId": "com.github.netanir",
+        "versionSuffix": ".experimental"
+      },
+      "package": "com.github.netanir.hellojsii"
+    },
+    "js": {
+      "npm": "jsii-module"
+    }
+  },
+  "types": {
+    "jsii-module.Hello": {
+      "assembly": "jsii-module",
+      "docs": {
+        "stability": "stable"
+      },
+      "fqn": "jsii-module.Hello",
+      "initializer": {
+        "docs": {
+          "stability": "stable"
+        }
+      },
+      "kind": "class",
+      "locationInModule": {
+        "filename": "src/index.ts",
+        "line": 4
+      },
+      "methods": [
+        {
+          "docs": {
+            "stability": "stable"
+          },
+          "locationInModule": {
+            "filename": "src/index.ts",
+            "line": 8
+          },
+          "name": "sayHello",
+          "returns": {
+            "type": {
+              "primitive": "string"
+            }
+          }
+        }
+      ],
+      "name": "Hello"
+    }
+  },
+  "version": "0.0.0",
+  "fingerprint": "injGOHGNTAESMMArJwB0D5argiMC1MM2jyBzXzNRH+4="
+}
